@@ -10,6 +10,7 @@
 - Run `php artisan key:generate`
 - Run `php artisan config:cache`
 - Run `php artisan migrate`
+- Run `php artisan queue:work`
 - Test the application
 
 ## Setup the Application Docker
@@ -23,6 +24,7 @@
 - Run `docker-compose exec app php artisan key:generate`
 - Run `docker-compose exec app php artisan config:cache`
 - Run `docker-compose exec app php artisan migrate`
+- Run `docker-compose exec app php artisan queue:work`
 - Test the application
 
 ### Note
